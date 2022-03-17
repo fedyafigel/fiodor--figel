@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Пример использование тэгов</h1>
+         <p><b>Оглавление</b></p>
+         <ul>
+            <ol><a href="#dl, dt, dd"></a>1. dl, dt, dd</ol>
+            <ol>2. pre </ol>
+            <ol>3. code</ol>
+            <ol>4. tt</ol>
+            <ol>5. kdb</ol>
+            <ol>6. var</ol>
+            <ol>7. sup, sub</ol>
+            <ol>8. blockquote, q</ol>
+            <ol>9. ins,del</ol>
+            <ol>10. address</ol>
+            <ol><a href="#nobr, wbr"></a>11. nobr, wbr</ol>
+         </ul>
+
+    <p>Приветствую всех, сейчас покажу как визуально выглядит использование тэгов из доп задания</p>
+    <a name="dl, dt, dd"></a>
+<h2>Тройки тэгов dl, dt, dd</h2>
+    <dl>
+        <dt><b>Меме́тика</b></dt>
+         <dd>теория содержания сознания и эволюции культуры, построенная по аналогии с генетикой и биологической теорией эволюции Дарвина и берущая начало из концепции мема, 
+             предложенной биологом Ричардом Докинзом в книге «Эгоистичный ген» (1976)</dd>
+      </dl>
+    <a href="https://ibb.co/48rY7w5" title="опасно">нажать для просмотра примера меметики</a><br><br><br>
+<h2>Тэг pre</h2>
+<pre><p>— Больше   всего   на   свете   боюсь   стоматологов и   темноты.</p>
+    <p>— А темноты-то   чего   бояться?</p>
+    <p>— А   хрен   его   знает, сколько   там   в   этой   темноте   стоматологов!</p> </pre>
+<h2>Тэг code</h2>
+<p>Код программы</p>
+  <p><code>
+    function checkParent (src, dest) {<Br>
+     while (src != null) {<Br>
+       if (src.tagName == dest) return src<Br>
+        src = src.parentElement<Br>
+     }<Br>
+     return null<Br>
+    }</code></p>
+<h2>Тэг tt</h2>
+<p>Это обычный текст.</p>
+<p><tt> А это текст как будто бы писали на печатной машинке</tt></p>
+<h2>Тэг kdb</h2>
+<p>Нажмите <kbd>Enter</kbd> чтобы запустить скрипт подсчёта</p>
+<h2>Тэг var</h2>
+<p>Переменная <var>a</var> должна быть равна переменной <var>select</var>, <br>
+<h2>Тэг sup, sub</h2>
+<samp>Результат вывода компьютерной программы/скрипта</samp>
+<p>Химическая формула воды - это H<sub>2</sub>O, а молекулярного кислорода - O<sub>2</sub>.</p>
+<h2>Тэг blockquote, q</h2>
+<blockquote>
+    <p><q>Lorem ipsum dolor sit amet</q>, consectetuer adipiscing elit, 
+    sed diem nonummy nibh euismod tincidunt ut lacreet dolore magna aliguam erat 
+    volutpat. Ut wisis enim ad minim veniam, quis nostrud exerci tution ullamcorper 
+    suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+   </blockquote>
+<h2>Тэг ins,del</h2>
+<p>Мой любимый цвет <del>синий</del> <ins>красный</ins>!</p> 
+<h2>Тэг address</h2>
+<p>Задает контактные данные автора/владельца документа или статьи. Отображается в браузере курсивом.</p>
+<address>
+    Telegram: fedor_belarm
+   </address>
+<h2>Тэг nobr, wbr</h2>
+<a name="nobr, wbr"></a>
+<nobr>Данный текст должен будет отображаться в браузере в виде одной длинной строки без переносов. Крайне нежелательно использование тега во избежание появления горизонтальных полос прокрутки! <wbr> А здесь добавляем принудительный перенос</nobr>
+</body>
+</html>
